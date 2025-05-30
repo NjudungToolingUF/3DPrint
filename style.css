@@ -121,3 +121,29 @@ footer {
     box-shadow: 0 8px 32px rgba(0,230,176,0.18), 0 2px 8px rgba(0,0,0,0.10);
     border: 2px solid #00e6b0;
 }
+
+/* Gör rubriker mindre på små skärmar */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+    h2 {
+        font-size: 1.3rem;
+        padding: 0 8px;
+    }
+    h3 {
+        font-size: 1.1rem;
+        padding: 0 6px;
+    }
+    header {
+        padding: 24px 0 16px 0;
+    }
+    main {
+        padding: 24px 6px 40px 6px;
+    }
+    ul {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
