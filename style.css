@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #181818 0%, #232526 100%);
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(90deg, #111 0%, #222 100%);
+    color: #fff;
+    padding: 40px 0 24px 0;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-shadow: 2px 4px 16px rgba(0,0,0,0.18);
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-top: 12px;
+    font-size: 1.3rem;
+    color: #00e6b0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 40px 20px 60px 20px;
+    text-align: center;
+    font-size: 1.18rem;
+    color: #fff;
+}
+
+h2, h3 {
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+ul li {
+    background: #fff;
+    color: #181818;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    padding: 28px 22px 18px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 240px;
+    max-width: 320px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+ul li:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.22);
+}
+
+ul li img {
+    max-width: 220px;
+    max-height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0 10px 0;
+    background: #111;
+    color: #00e6b0;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.10);
+    margin-top: 40px;
+    border-top: 2px solid #222;
+}
+.buy-btn {
+    margin-top: 14px;
+    padding: 12px 32px;
+    background: #00e6b0;
+    color: #181818;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transition: 
+        background 0.2s,
+        color 0.2s,
+        transform 0.18s,
+        box-shadow 0.2s;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.buy-btn:hover, .buy-btn:focus {
+    background: #00b48a;
+    color: #fff;
+    transform: translateY(-2px) scale(1.06);
+    box-shadow: 0 8px 32px rgba(0,230,176,0.18), 0 2px 8px rgba(0,0,0,0.10);
+    border: 2px solid #00e6b0;
+}

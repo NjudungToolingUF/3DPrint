@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batterihållare</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Batterihållare</h1>
+    </header>
+    <main>
+        <img src="images/batterihållare.jpg" alt="Batterihållare" style="max-width: 350px; border-radius: 12px; margin-bottom: 18px;">
+        <h2>Pris: 99 kr</h2>
+        <p>Smidig batterihållare som håller ordning på dina batterier. Perfekt för verktygstavlor!</p>
+        <form action="https://formspree.io/f/mrbkzqjd" method="POST" style="display:flex;flex-direction:column;align-items:center;gap:10px;max-width:320px;margin:0 auto;">
+            <input type="hidden" name="Produkt" value="Batterihållare">
+            <input type="text" name="Namn" placeholder="Ditt namn" required style="padding:8px 12px;border-radius:8px;border:1px solid #ccc;">
+            <input type="email" name="E-post" placeholder="Din e-post" required style="padding:8px 12px;border-radius:8px;border:1px solid #ccc;">
+            <textarea name="Meddelande" placeholder="Meddelande eller adress" rows="3" style="padding:8px 12px;border-radius:8px;border:1px solid #ccc;"></textarea>
+            <button type="submit" class="buy-btn">Beställ</button>
+        </form>
+        <br>
+        <a href="index.html" style="color:#00e6b0;">&#8592; Tillbaka till butiken</a>
+    </main>
+    <footer>
+        <p>&copy; 2025 NjudungToolingUF</p>
+    </footer>
+</body>
+</html>
